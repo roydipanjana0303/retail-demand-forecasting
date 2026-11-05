@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.pkl
+
+# Old backups
+*.backup*
+backend/main_backup.py
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Mac
+.DS_Store
+
+# Uploaded and generated data
+data/uploads/
+data/processed/
+data/raw/
+data/upload_results/
+forecast_results.csv
+storage/uploads/
+storage/processed/
